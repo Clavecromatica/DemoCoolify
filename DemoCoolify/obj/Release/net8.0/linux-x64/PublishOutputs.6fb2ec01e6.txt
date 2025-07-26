@@ -1,0 +1,11 @@
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\DemoCoolify
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\appsettings.Development.json
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\appsettings.json
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\DemoCoolify.dll
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\DemoCoolify.deps.json
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\DemoCoolify.runtimeconfig.json
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\DemoCoolify.pdb
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\Microsoft.OpenApi.dll
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Tomza\DemoCoolify\DemoCoolify\bin\Release\net8.0\linux-x64\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

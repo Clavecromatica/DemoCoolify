@@ -1,0 +1,6 @@
+@DemoCoolify_HostAddress = http://localhost:5267
+
+GET {{DemoCoolify_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

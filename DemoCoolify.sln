@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCoolify", "DemoCoolify\DemoCoolify.csproj", "{A6CE6904-BACB-4484-9BC3-24B13C69A571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6CE6904-BACB-4484-9BC3-24B13C69A571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CE6904-BACB-4484-9BC3-24B13C69A571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CE6904-BACB-4484-9BC3-24B13C69A571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CE6904-BACB-4484-9BC3-24B13C69A571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
