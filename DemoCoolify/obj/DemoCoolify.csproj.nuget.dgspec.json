@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tomza\\DemoCoolify\\DemoCoolify\\DemoCoolify.csproj": {}
+    "/Users/polorodriguez/Documents/repos/DemoCoolify/DemoCoolify/DemoCoolify.csproj": {}
   },
   "projects": {
-    "C:\\Tomza\\DemoCoolify\\DemoCoolify\\DemoCoolify.csproj": {
+    "/Users/polorodriguez/Documents/repos/DemoCoolify/DemoCoolify/DemoCoolify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tomza\\DemoCoolify\\DemoCoolify\\DemoCoolify.csproj",
+        "projectUniqueName": "/Users/polorodriguez/Documents/repos/DemoCoolify/DemoCoolify/DemoCoolify.csproj",
         "projectName": "DemoCoolify",
-        "projectPath": "C:\\Tomza\\DemoCoolify\\DemoCoolify\\DemoCoolify.csproj",
-        "packagesPath": "C:\\Users\\prhir\\.nuget\\packages\\",
-        "outputPath": "C:\\Tomza\\DemoCoolify\\DemoCoolify\\obj\\",
+        "projectPath": "/Users/polorodriguez/Documents/repos/DemoCoolify/DemoCoolify/DemoCoolify.csproj",
+        "packagesPath": "/Users/polorodriguez/.nuget/packages/",
+        "outputPath": "/Users/polorodriguez/Documents/repos/DemoCoolify/DemoCoolify/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prhir\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/polorodriguez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,17 +32,28 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -59,12 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.3, 8.0.3]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,12 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\prhir\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "/Users/polorodriguez/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

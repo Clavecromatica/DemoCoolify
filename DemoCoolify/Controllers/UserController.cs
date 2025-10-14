@@ -2,6 +2,7 @@ using Dapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
+using Npgsql;
 
 namespace DemoCoolify.Controllers
 {
@@ -12,12 +13,11 @@ namespace DemoCoolify.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var connectionString = $"Data Source={Environment.GetEnvironmentVariable("SqlserverHost")};" +
-                                   $"Initial Catalog={Environment.GetEnvironmentVariable("SqlserverDatabase")};" +
-                                   $"User ID={Environment.GetEnvironmentVariable("SqlserverUser")};" +
-                                   $"Password={Environment.GetEnvironmentVariable("SqlserverPassword")};" +
-                                   $"TrustServerCertificate=True;Encrypt=False;";
-            var cnn = new SqlConnection(connectionString);
+            var connectionString = $"SSL Mode=Require;Host={Environment.GetEnvironmentVariable("sqlhost")};Post=5432" +
+                                   $"Database={Environment.GetEnvironmentVariable("sqldatabase")};" +
+                                   $"username={Environment.GetEnvironmentVariable("sqluser")};" +
+                                   $"Password={Environment.GetEnvironmentVariable("sqlpassword")};";
+            var cnn = new NpgsqlConnection(connectionString);
             try
             {
                 cnn.Open();
