@@ -21,7 +21,7 @@ namespace DemoCoolify.Controllers
             try
             {
                 cnn.Open();
-                var query = "SELECT TOP 10 * FROM [dbo].[Users]";
+                var query = "SELECT TOP 10 * FROM users";
                 var res = await cnn.QueryAsync(query);
                 return Ok(res);
             }
