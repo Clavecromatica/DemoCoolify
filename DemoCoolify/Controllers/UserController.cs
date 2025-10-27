@@ -13,7 +13,7 @@ namespace DemoCoolify.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var connectionString = $"SSL Mode=Require;Host={Environment.GetEnvironmentVariable("sqlhost")};Post=5432" +
+            var connectionString = $"SSL Mode=Require;Host={Environment.GetEnvironmentVariable("sqlhost")};Port=5432" +
                                    $"Database={Environment.GetEnvironmentVariable("sqldatabase")};" +
                                    $"username={Environment.GetEnvironmentVariable("sqluser")};" +
                                    $"Password={Environment.GetEnvironmentVariable("sqlpassword")};";
