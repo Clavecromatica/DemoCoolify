@@ -13,11 +13,11 @@ namespace DemoCoolify.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            // var connectionString = $"{Environment.GetEnvironmentVariable("sqlhost")};Port=5432;" +
-            //                        $"Database={Environment.GetEnvironmentVariable("sqldatabase")};" +
-            //                        $"username={Environment.GetEnvironmentVariable("sqluser")};" +
-            //                        $"Password={Environment.GetEnvironmentVariable("sqlpassword")};";
-            var cnn = new NpgsqlConnection(Environment.GetEnvironmentVariable("connectionstring"));
+            var connectionString = $"SSL Mode=Require;Host={Environment.GetEnvironmentVariable("sqlhost")};Port=5432;" +
+                                   $"Database={Environment.GetEnvironmentVariable("sqldatabase")};" +
+                                   $"username={Environment.GetEnvironmentVariable("sqluser")};" +
+                                   $"Password={Environment.GetEnvironmentVariable("sqlpassword")};";
+            var cnn = new NpgsqlConnection(connectionString);
             try
             {
                 cnn.Open();
